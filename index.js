@@ -81,26 +81,26 @@ function sendGenericMessage(sender) {
 			"payload": {
 				"template_type": "generic",
 				"elements": [{
-					"title": "First card",
-					"subtitle": "Element #1 of an hscroll",
-					"image_url": "http://messengerdemo.parseapp.com/img/rift.png",
+					"title": "Salgsrot i Forsvaret",
+					"subtitle": "Lorem ipsum dolor si amet",
+					"image_url": "http://www.dagbladet.no/audun/agenda-studio/img/forsvaret.png",
 					"buttons": [{
 						"type": "web_url",
-						"url": "https://www.messenger.com",
-						"title": "web url"
+						"url": "http://www.dagbladet.no/audun/agenda-studio/collection.php5",
+						"title": "Åpne saken"
 					}, {
 						"type": "postback",
-						"title": "Postback",
-						"payload": "Payload for first element in a generic bubble",
+						"title": "Vis mer",
+						"payload": "Tidligere utenriksminister Jonas Gahr Støre legger ansvaret for at båtene har havnet i Nigeria på britiske myndigheter.",
 					}],
 				}, {
-					"title": "Second card",
-					"subtitle": "Element #2 of an hscroll",
-					"image_url": "http://messengerdemo.parseapp.com/img/gearvr.png",
+					"title": "Voldtekten i Hemsedal",
+					"subtitle": "Lorem ipsum dolor si amet",
+					"image_url": "http://www.dagbladet.no/audun/agenda-studio/img/forsvaret.png",
 					"buttons": [{
 						"type": "postback",
-						"title": "Postback",
-						"payload": "Payload for second element in a generic bubble",
+						"title": "Vis mer",
+						"payload": "Tidligere utenriksminister Jonas Gahr Støre legger ansvaret for at båtene har havnet i Nigeria på britiske myndigheter.",
 					}],
 				}]
 			}
